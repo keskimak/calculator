@@ -32,8 +32,8 @@ export default function App() {
       <View style={styles.maincontainer}>
         <View style={styles.container}>
           <Text>Result: {result}</Text>
-          <TextInput style={styles.input} onChangeText={text => changeText(text)} value={text} ></TextInput>
-          <TextInput style={styles.input} onChangeText={text => changeText2(text)} value={text2} ></TextInput>
+          <TextInput style={styles.input} onChangeText={text => changeText(text)} value={text} keyboardType="number-pad"></TextInput>
+          <TextInput style={styles.input} onChangeText={text => changeText2(text)} value={text2} keyboardType="number-pad"></TextInput>
         </View>
 
         <View style={styles.buttonContainer}>
